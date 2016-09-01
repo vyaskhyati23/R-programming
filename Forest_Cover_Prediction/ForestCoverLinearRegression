@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SimpleLinearRegression 
+Relation:     trainCover70
+Instances:    406707
+Attributes:   57
+              
+              X
+              Elevation
+              Aspect
+              Slope
+              Horizontal_Distance_To_Hydrology
+              Vertical_Distance_To_Hydrology
+              Horizontal_Distance_To_Roadways
+              Hillshade_9am
+              Hillshade_Noon
+              Hillshade_3pm
+              Horizontal_Distance_To_Fire_Points
+              Wilderness_Area
+              Wilderness_Area.1
+              Wilderness_Area.2
+              Wilderness_Area.3
+              Soil_Type
+              Soil_Type.1
+              Soil_Type.2
+              Soil_Type.3
+              Soil_Type.4
+              Soil_Type.5
+              Soil_Type.6
+              Soil_Type.7
+              Soil_Type.8
+              Soil_Type.9
+              Soil_Type.10
+              Soil_Type.11
+              Soil_Type.12
+              Soil_Type.13
+              Soil_Type.14
+              Soil_Type.15
+              Soil_Type.16
+              Soil_Type.17
+              Soil_Type.18
+              Soil_Type.19
+              Soil_Type.20
+              Soil_Type.21
+              Soil_Type.22
+              Soil_Type.23
+              Soil_Type.24
+              Soil_Type.25
+              Soil_Type.26
+              Soil_Type.27
+              Soil_Type.28
+              Soil_Type.29
+              Soil_Type.30
+              Soil_Type.31
+              Soil_Type.32
+              Soil_Type.33
+              Soil_Type.34
+              Soil_Type.35
+              Soil_Type.36
+              Soil_Type.37
+              Soil_Type.38
+              Soil_Type.39
+              Cover_Type
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Linear regression on Wilderness_Area.3
+
+1.85 * Wilderness_Area.3 + 1.93
+
+
+Time taken to build model: 4.98 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correlation coefficient                  0.3238
+Mean absolute error                      0.7567
+Root mean squared error                  1.3197
+Relative absolute error                 92.8437 %
+Root relative squared error             94.6141 %
+Total Number of Instances           406707     
+
+
